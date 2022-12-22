@@ -1,0 +1,23 @@
+{
+    "name": "tnhnclskn/paytr",
+    "description": "PayTR",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tnhnclskn\\PayTR\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tunahan Caliskan",
+            "email": "mail@tunahancaliskan.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.5.x-dev",
+        "ext-curl": "*",
+        "ext-json": "*"
+    }
+}
