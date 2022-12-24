@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": "7.5.x-dev",
+        "guzzlehttp/guzzle": "^7.0",
         "ext-curl": "*",
         "ext-json": "*"
     }
