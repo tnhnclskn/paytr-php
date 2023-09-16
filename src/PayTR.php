@@ -44,7 +44,6 @@ class PayTR
         $response = json_decode($request->getBody()->getContents(), true);
 
         if (isset($response['status']) && $response['status'] == 'failed') {
-            dd($response);
             throw new PayTRException($response['reason']);
         }
 
