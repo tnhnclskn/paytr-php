@@ -33,6 +33,7 @@ class IframeAPI extends BaseAPI
             'user_phone' => $data['user_phone'],
             'merchant_ok_url' => $data['merchant_ok_url'],
             'merchant_fail_url' => $data['merchant_fail_url'],
+            'test_mode' => $this->paytr()->testMode ? 1 : 0,
             'debug_on' => $data['debug_on'],
             'timeout_limit' => $data['timeout_limit'],
             'lang' => $data['lang'],
